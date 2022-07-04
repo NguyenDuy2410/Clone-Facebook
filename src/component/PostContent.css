@@ -1,0 +1,58 @@
+.PostContent {
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100px;
+    width: 85%;
+    cursor: pointer;
+}
+.PostContent_Top img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+.PostContent_Top {
+    display: flex;
+    padding: 10px 15px;
+    width: 100%;
+}
+.PostContent_Top form,
+input {
+    width: 90%;
+    padding: 0px 10px;
+    border: none;
+}
+.PostContent_Top .PostContent_Search {
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+.PostContent_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.PostContent_bottom .PostContent_option {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.PostContent_bottom .PostContent_option svg {
+    font-size: 25px;
+}
+h3 {
+    padding-left: 5px;
+}
+.PostContent_option:hover {
+    background-color: #ccc;
+}
+.PostContent_Search:focus {
+    background-color: #ccc;
+}
+.post_image img {
+    object-fit: cover;
+}

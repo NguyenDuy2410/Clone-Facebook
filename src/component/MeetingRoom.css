@@ -1,0 +1,75 @@
+.MeetingRoom {
+  width: 85%;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  display: flex;
+  margin: auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.Avatar {
+  display: flex;
+}
+.Avatar_Live {
+  position: relative;
+}
+.circle {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  background-color: green;
+  bottom: 5px;
+  right: 10px;
+}
+.MeetingRoom_Live {
+  display: flex;
+  width: 20%;
+}
+.MeetingRoom .Avatar img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  padding: 0 5px;
+}
+.MeetingRoom_Live svg {
+  font-size: 30px;
+  color: #2d77dd;
+}
+.MeetingRoom_RoomLive {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.MeetingRoom_Live {
+  width: 180px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #e7f3ff;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  color: #2d77dd;
+  background-color: white;
+}
+.Next {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #b8babb;
+  background-color: white;
+  right: 10px;
+}
+.Next svg {
+  font-size: 30px;
+  color: #b8babb;
+}

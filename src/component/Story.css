@@ -1,0 +1,8 @@
+.Story {
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+}
+.Story::-webkit-scrollbar {
+  display: none;
+}

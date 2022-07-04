@@ -1,0 +1,41 @@
+.StoryContent {
+    height: 150px;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px 5px 10px 5px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    transition: transform 100s ease-in;
+    cursor: pointer;
+}
+.StoryContent:hover {
+    transform: scale(1.07);
+}
+.Storyavatar {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    position: absolute;
+    border: 3px solid blue;
+    top: 5px;
+    left: 5px;
+}
+.Storyimage {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.titleStory {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 1;
+    margin-left: 5px;
+    text-shadow: 2px 2px 2px #000;
+}
